@@ -1,10 +1,10 @@
-namespace AdventOfCode2024.Solutions.Day4;
+namespace AdventOfCode2024.Solutions._2024.Day4;
 
 public class Day4
 {
     public int GetTotalXmas(string fileName)
     {
-        var lines = FileParser.GetLines("Day4", fileName);
+        var lines = FileParser.GetLines(Constants.Years.Year2024,"Day4", fileName);
         var matrix = lines.Select(x => x.ToCharArray()).ToList();
         var maxlengthRow = matrix[0].Length;
         var totalRows = matrix.Count;
@@ -122,7 +122,7 @@ public class Day4
     
     public int GetTotalMas(string fileName)
     {
-        var lines = FileParser.GetLines("Day4", fileName);
+        var lines = FileParser.GetLines(Constants.Years.Year2024,"Day4", fileName);
         var matrix = lines.Select(x => x.ToCharArray()).ToList();
         var totalmas = 0;
         for (var i = 0; i < matrix.Count; i++)

@@ -1,12 +1,12 @@
 using System.Text.RegularExpressions;
 
-namespace AdventOfCode2024.Solutions.Day3;
+namespace AdventOfCode2024.Solutions._2024.Day3;
 
 public class Day3
 {
     public int GetTotalMultiplied(string fileName)
     {
-        var lines = FileParser.GetLines("Day3", fileName);
+        var lines = FileParser.GetLines(Constants.Years.Year2024,"Day3", fileName);
         var total = 0;
         foreach (var line in lines)
         {
@@ -29,7 +29,7 @@ public class Day3
     
     public int GetTotalMultipliedWithCommandos(string fileName)
     {
-        var lines = FileParser.GetLines("Day3", fileName);
+        var lines = FileParser.GetLines(Constants.Years.Year2024,"Day3", fileName);
         var total = 0;
         var isEnabled = true;
 

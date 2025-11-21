@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>AdventOfCode2024.Solutions</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AdventOfCode.Common\AdventOfCode.Common.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Day1\example_input.txt" />
+      <None Remove="Day1\input.txt" />
+      <None Remove="Day2\input_example.txt" />
+      <None Remove="Day2\input.txt" />
+      <None Remove="Day3\input_example.txt" />
+      <None Remove="Day3\input.txt" />
+      <None Remove="Day3\input_example_part2.txt" />
+      <None Remove="Day4\input_example.txt" />
+      <None Remove="Day4\input_example2.txt" />
+      <None Remove="Day4\input_example3.txt" />
+      <None Remove="Day4\input.txt" />
+      <None Remove="Day4\input_example4.txt" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="2024\Day5\input.txt" />
+      <Content Include="2024\Day5\input.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+</Project>

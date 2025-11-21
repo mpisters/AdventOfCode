@@ -1,4 +1,4 @@
-namespace AdventOfCode2024.Tests.Day2;
+namespace AdventOfCode2024.Tests._2024.Day2;
 
 public class Day2Test : ITest
 {
@@ -29,5 +29,5 @@ public class Day2Test : ITest
         Assert.Equal(692, result);
     }
 
-    private Solutions.Day2.Day2 Sut() => new Solutions.Day2.Day2();
+    private Solutions._2024.Day2.Day2 Sut() => new Solutions._2024.Day2.Day2();
 }

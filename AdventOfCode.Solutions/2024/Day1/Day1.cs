@@ -1,4 +1,4 @@
-namespace AdventOfCode2024.Solutions.Day1;
+namespace AdventOfCode2024.Solutions._2024.Day1;
 
 public class Day1
 {
@@ -17,7 +17,7 @@ public class Day1
 
     private static (List<int> firstArray, List<int> secondArray) GetArrays(string fileName)
     {
-        var lines = FileParser.GetLines("Day1", fileName);
+        var lines = FileParser.GetLines(Constants.Years.Year2024,"Day1", fileName);
         var firstArray = new List<int>();
         var secondArray = new List<int>();
         foreach (var line in lines)

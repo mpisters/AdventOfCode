@@ -1,6 +1,4 @@
-using NuGet.Frameworks;
-
-namespace AdventOfCode2024.Tests.Day3;
+namespace AdventOfCode2024.Tests._2024.Day3;
 
 public class Day3Test : ITest
 {
@@ -32,5 +30,5 @@ public class Day3Test : ITest
         Assert.Equal(82733683, result);
     }
 
-    private Solutions.Day3.Day3 Sut() => new Solutions.Day3.Day3();
+    private Solutions._2024.Day3.Day3 Sut() => new Solutions._2024.Day3.Day3();
 }

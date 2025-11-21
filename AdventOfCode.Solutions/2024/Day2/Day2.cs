@@ -1,10 +1,10 @@
-namespace AdventOfCode2024.Solutions.Day2;
+namespace AdventOfCode2024.Solutions._2024.Day2;
 
 public class Day2
 {
     public int GetTotalSaveReports(string fileName)
     {
-        var lines = FileParser.GetLines("Day2", fileName);
+        var lines = FileParser.GetLines(Constants.Years.Year2024,"Day2", fileName);
         var totalSafeReports = 0;
         foreach (var line in lines)
         {
@@ -21,7 +21,7 @@ public class Day2
 
     public int GetTotalSaveReportsWithTolerance(string fileName)
     {
-        var lines = FileParser.GetLines("Day2", fileName);
+        var lines = FileParser.GetLines(Constants.Years.Year2024,"Day2", fileName);
         var totalSafeReports = 0;
         foreach (var line in lines)
         {

@@ -1,10 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode2024.Common", "AdventOfCode2024.Common\AdventOfCode2024.Common.csproj", "{2248460F-1AE1-4BAD-AD77-492019947F34}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Common", "AdventOfCode.Common\AdventOfCode.Common.csproj", "{2248460F-1AE1-4BAD-AD77-492019947F34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode2024.Solutions", "AdventOfCode2024.Solutions\AdventOfCode2024.Solutions.csproj", "{4C6CEDE5-D908-4CB9-BD8E-CD6610DD2B3A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Solutions", "AdventOfCode.Solutions\AdventOfCode.Solutions.csproj", "{4C6CEDE5-D908-4CB9-BD8E-CD6610DD2B3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode2024.Tests", "AdventOfCode2024.Tests\AdventOfCode2024.Tests.csproj", "{947956DE-DE82-400B-A3E9-C022988E2843}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Tests", "AdventOfCode.Tests\AdventOfCode.Tests.csproj", "{947956DE-DE82-400B-A3E9-C022988E2843}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,4 +1,4 @@
-namespace AdventOfCode2024.Tests.Day4;
+namespace AdventOfCode2024.Tests._2024.Day4;
 
 public class Day4Test : ITest
 {
@@ -43,6 +43,6 @@ public class Day4Test : ITest
         var result = Sut().GetTotalMas("input.txt");
         Assert.Equal(1985, result);
     }
-    private Solutions.Day4.Day4 Sut() => new Solutions.Day4.Day4();
+    private Solutions._2024.Day4.Day4 Sut() => new Solutions._2024.Day4.Day4();
 
 }
